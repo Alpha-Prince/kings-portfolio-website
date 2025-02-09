@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="King Code Pics/Eagle.jpeg">
+    <link rel="stylesheet" href="styl]piu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="color-change.css">
+    <link rel="stylesheet" href="color.css" class="alternate-stlye" title="color-1" disabled>
+    <link rel="stylesheet" href="color-1.css" class="alternate-stlye" title="color-2" disabled>
+    <link rel="stylesheet" href="color-2.css" class="alternate-stlye" title="color-3" disabled>
+    <link rel="stylesheet" href="color-3.css" class="alternate-stlye" title="color-4" disabled>
+    <link rel="stylesheet" href="color-4.css" class="alternate-stlye" title="color-5" disabled>
+    <title>KingWorks</title>
+</head>
+<body>
+    
+          <!-------Menubar----->
+
+ <div class="menubar">
+    <div class="logo">
+      <h3 class="logo"><span>KiNG</span></h3>
+    </div>
+    <div class="nav">
+      <li><a href="index1.htm" class="nav_item"> Home</a></li>
+      <li><a href="about.html" class="nav_item"> About</a></li>
+      <li><a href="port.html" class="nav_item"> Portfolio</a></li>
+      <li><a href="contact.html" class="active"> Contact</a></li>
+      <div class="color-change">
+        <div class="icons">
+        <div id="sicon" class="color-change-tog s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div  id="moon" class="day-night s-icon" onclick="toggleTheme()">
+            <i class="fas fa-moon"></i>
+        </div>
+        </div>
+        <div class="Theme">
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color" onclick="setActiveStyle('color')"></span>
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        </div>
+      </div>
+       </div>
+</div>
+    <div class="humbuger" id="bars">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    
+  </div>
+
+
+  
+
+  <!-------Contact------->
+
+  <div class="contact_container">
+    <h1 class="sub_header">Contact Me</h1>
+    <h1 class="ins">Send An E-mail</h1>
+    <div class="ask-question"><h4>Have any Quetions?</h4></div>
+
+    <div class="e-mail-container">
+        <form  action="https://formspree.io/f/xyzgkvqv" method="POST">
+            <div class="first-2">
+            <input type="text" name="Name" placeholder="Enter your name">
+            <input type="email" name="E-mail" placeholder="Enter my email">
+            </div>
+            <div class="second-2">
+            <input type="email" name="E-mail" placeholder="Enter your email">
+            <input type="text" name="Subject" placeholder="Subject">
+            </div>
+            <input class="Message" type="text" name="Message" placeholder="Enter your Message">
+            <button class="btn"><i class="fas fa-paper-plane">Send</i></button>
+        </form>
+    </div>
+    <div class="social_media">
+      <a href="https://web.facebook.com/profile.php?id=61562849107298"><i class="fas fa-facebook"></i>
+        </a>
+      <a><i class="fas fa-cloud"></i></a>
+      <a href="https://www.instagram.com/"><i class="fas fa-camera"></i>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>

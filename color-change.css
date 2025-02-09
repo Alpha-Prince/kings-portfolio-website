@@ -1,0 +1,59 @@
+body.fas.fa-moon {
+    background-color: var(--text-color);
+    color: var(--text-color);
+}
+
+.color-change {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.014);
+    transition: all 0.3s ease-in;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.Theme {
+    display: none;
+    flex-direction: column;
+    margin-bottom: 20px;
+    transition: 1s ease-in-out;
+}
+.Theme.display{
+    display: flex;   
+}
+
+.color-change .s-icon {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.color-change .colors {
+    display: flex;
+    gap: 10px;
+}
+
+.color-change .color,
+.color-change .color-1,
+.color-change .color-2,
+.color-change .color-3,
+.color-change .color-4 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-change .color { background-color: rgb(0, 146, 146); }
+.color-change .color-1 { background-color: darkgreen; }
+.color-change .color-2 { background-color: crimson; }
+.color-change .color-3 { background-color: navy; }
+.color-change .color-4 { background-color:rgb(148, 62, 0);}
